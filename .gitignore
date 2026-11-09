@@ -3,6 +3,7 @@
 .gradle
 **/build/
 **/*Test/
+**/**.pdf
 xcuserdata
 !src/**/build/
 local.properties

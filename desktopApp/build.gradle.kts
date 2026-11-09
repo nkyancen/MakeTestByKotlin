@@ -13,6 +13,10 @@ dependencies {
     implementation(libs.kotlinx.coroutinesSwing)
 
     implementation(libs.compose.uiToolingPreview)
+    implementation(libs.compose.components.resources)
+
+    implementation(libs.pdfkmp.jvm)
+    implementation(libs.pdfkmp.viewer.jvm)
 }
 
 compose.desktop {
@@ -21,7 +25,7 @@ compose.desktop {
 
         nativeDistributions {
             targetFormats(TargetFormat.Dmg, TargetFormat.Msi, TargetFormat.Deb)
-            packageName = "StudentTestMaker"
+            packageName = "TestsMaker"
             packageVersion = "1.0.0"
         }
     }
